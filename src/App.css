@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: yellow;
 }
 
 .App-link {
@@ -35,4 +35,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+.btn{
+  background-color: black;
+  border: 1px solid yellow;
+  padding: 20px;
+  font-size: 25px;
+  color: yellow;
+  cursor: pointer;
+}
+.imageProfile{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
